@@ -1,0 +1,54 @@
+#changeme {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background:red;
+    margin: 20px auto;
+}
+
+#changeme2 {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background:red;
+    margin: 20px auto;
+}
+
+#changeme3 {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background:red;
+    margin: 20px auto;
+}
+
+#changeme4 {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background:red;
+    margin: 20px auto;
+}
+
+body {
+    text-align: center;
+   
+}
+
+#container {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px auto;
+}
+
+button {
+    border: none;
+    width: 800px;
+    height: 50px;
+    background: greenyellow;
+    font-size: 30px;
+    font-style: bold;
+    
+}
