@@ -31,9 +31,41 @@ button.onclick = function changecolorofbox(){
 
 }
 
-function additional () {
-    let result = x + y
-    console.log ("the result is ${result}")
+
+function addition () {
+    let result = 30 + 30
+    console.log(`The result is not ${result}`)
 }
 
+
+addition()
+
+addition()
+
 alert ("hello")
+
+let count = 0
+
+function addToCount() {
+    let basecount = 10
+
+    count = count + 1
+
+    let finalcount= basecount + count
+
+    console.log("the result is:", count)
+    console.log("the final result:",basecount)
+    console.log("this is summation:-",finalcount)
+}
+
+addToCount()
+addToCount()
+
+
+function Fullname(firstname,lastname){
+    alert(firstname + " " + lastname)
+}
+
+Fullname("adewale", "tiger")
+Fullname("Ogunjimi", "Thefirst")
+
